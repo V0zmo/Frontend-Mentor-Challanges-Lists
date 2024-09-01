@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github]([https://your-solution-url.com](https://v0zmo.github.io/Frontend-Mentor-Challanges-Lists/blog-preview-card-main/index.html))
+- Live Site URL: [Github](https://v0zmo.github.io/Frontend-Mentor-Challanges-Lists/blog-preview-card-main/index.html)
 
 ## My process
 
