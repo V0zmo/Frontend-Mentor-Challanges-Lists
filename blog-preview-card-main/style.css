@@ -1,0 +1,201 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+
+    --gray500: hsl(0, 0%, 42%);
+    --gray950: hsl(0, 0%, 7%);
+
+    --blue: hsl(227, 88%, 63%);
+    --pink: hsl(317, 88%, 63%);
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(/blog-preview-card-main/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+}
+
+#costum-cursor {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+    pointer-events: none;
+    content: url(/blog-preview-card-main/assets/images/cursor.svg);
+}
+
+.container {
+    font-family: Figtree;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 150%;
+}
+
+.blog-card {
+    width: 80%;
+    height: auto;
+    max-width: 384px;
+    margin: 20px;
+    padding: 24px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 8px 8px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.blog-card-content {
+    margin-bottom: 24px;
+}
+
+.blog-card-content h2 {
+    font-size: 0.875rem;
+    color: var(--gray950);
+}
+
+.blog-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.blog-card-category {
+    width: 100%;
+    max-width: 82px;
+    height: auto;
+    background-color: var(--yellow);
+    border-radius: 4px;
+    display: inline-flex;
+    margin-top: 24px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-card-category h2 {
+    font-weight: 800;
+}
+
+.blog-card-date {
+    font-weight: 500;
+    margin: 12px 0px;
+}
+
+.blog-card-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.blog-card-title a {
+    color: var(--black);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.blog-card-description {
+    color: var(--gray500);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.blog-card-author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.blog-card-image-avatar {
+    width: 100%;
+    max-width: 32px;
+    height: auto;
+}
+
+.blog-card-author-name {
+    margin-left: 12px;
+    font-size: 0.875rem;
+    color: var(--gray950);
+    font-weight: 800;
+    transition: color 0.2s ease-in-out;
+}
+
+.attribution {
+    font-family: Figtree;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--gray950);
+    transition: transform 0.2s ease-in-out;
+}
+
+.attribution a {
+    color: var(--gray500);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Animation goes down here 
+I'm sorry I'm having too much fun here lol*/
+
+.blog-card-title a:hover,
+.blog-card-author-name:hover {
+    color: var(--yellow);
+}
+
+h1::selection,
+h2::selection,
+p::selection,
+a::selection {
+    color: var(--blue);
+    background-color: transparent;
+}
+
+img::selection,
+#costum-cursor::selection {
+    background-color: transparent;
+    color: transparent;
+}
+
+.attribution a:hover {
+    color: var(--white);
+}
+
+.attribution a:hover::selection {
+    color: var(--white);
+}
+
+.blog-card-title a:hover::selection,
+a .blog-card-author-name:hover::selection {
+    color: var(--yellow);
+}
+
+.blog-card:hover {
+    transform: translate(-15px, -15px) rotate(5deg) scale(110%);
+    box-shadow: 15px 15px;
+}
+
+.blog-card:hover~.attribution {
+    transform: translate(0px, 50px);
+}
+
+/*I didn't know that we should use :focus psuedo classes so I just slap this one lol. */
+a:focus,
+a:focus .blog-card-author-name,
+.blog-card-title a:focus {
+    display: inline-flex;
+    background-color: var(--pink);
+    color: var(--white);
+    border-radius: 5px;
+    outline: none;
+}

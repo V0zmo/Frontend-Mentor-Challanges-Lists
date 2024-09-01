@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Blog preview card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <main>
+    <div class="container" id="container">
+      <div id="costum-cursor"></div>
+      <div class="blog-card" class="blog-card">
 
-  Learning
+        <img src="/blog-preview-card-main/assets/images/illustration-article.svg" alt="illustration-article"
+          class="blog-card-image">
 
-  Published 21 Dec 2023
+        <div class="blog-card-content">
 
-  HTML & CSS foundations
+          <span class="blog-card-category">
+            <h2>Learning</h2>
+          </span>
+          <h2 class="blog-card-date">Published 21 Dec 2023</h2>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+          <h1 class="blog-card-title"><a href="#">HTML & CSS foundations</a></h1>
 
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+          <p class="blog-card-description"> These languages are the backbone of every website, defining structure,
+            content,
+            and presentation.</p>
+        </div>
+
+        <div>
+          <a href="#" class="blog-card-author">
+            <img src="/blog-preview-card-main/assets/images/image-avatar.webp" alt="image-avatar"
+              class="blog-card-image-avatar">
+            <h2 class="blog-card-author-name">Greg Hooper</h2>
+          </a>
+        </div>
+      </div>
+      <div class="attribution">
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://www.frontendmentor.io/profile/V0zmo" target="_blank">V0zmo</a>.</p>
+      </div>
+    </div>
+  </main>
+  <script src="index.js"></script>
 </body>
+
 </html>
