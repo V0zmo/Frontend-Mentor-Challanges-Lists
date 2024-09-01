@@ -28,6 +28,7 @@
     z-index: 999;
     pointer-events: none;
     content: URL(./assets/images/cursor.svg);
+    display: none;
 }
 
 .container {
