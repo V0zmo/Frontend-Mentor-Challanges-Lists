@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: Figtree;
-    src: url(/blog-preview-card-main/assets/fonts/Figtree-VariableFont_wght.ttf);
+    src: url(blog-preview-card-main/assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
 * {
@@ -27,7 +27,7 @@
     left: 0%;
     z-index: 999;
     pointer-events: none;
-    content: url(/blog-preview-card-main/assets/images/cursor.svg);
+    content: url(blog-preview-card-main/assets/images/cursor.svg);
 }
 
 .container {
