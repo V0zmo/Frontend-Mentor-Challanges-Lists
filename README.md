@@ -1,7 +1,7 @@
 
-# Frontend Mentor Challanges Lists
+# Frontend Mentor Challenges Lists
 
-A lists of my solutions based on the challanges Frontend Mentor provided.
+A list of my solutions based on the challenges Frontend Mentor provided.
 
 
 ## Finished Projects
