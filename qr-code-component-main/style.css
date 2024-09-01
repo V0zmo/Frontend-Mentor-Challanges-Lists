@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --slate-900: hsl(218, 44%, 22%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-300: hsl(212, 45%, 89%);
+
+    --white: hsl(0, 0%, 100%);
+
+    --pink: hsl(350, 100%, 79%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font: normal normal 700 22px/120% "Outfit", system-ui;
+    letter-spacing: 0px;
+    font-optical-sizing: auto;
+    color: var(--slate-900);
+}
+
+p {
+    font: normal normal 400 15px/140% "Outfit", system-ui;
+    letter-spacing: 0.2px;
+    font-optical-sizing: auto;
+    color: var(--slate-500);
+}
+
+.container {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--slate-300);
+}
+
+.qr--card {
+    background-color: var(--white);
+    width: 320px;
+    height: 499px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    box-shadow: 0px 25px 25px 0 hsla(0, 0%, 0%, 0.047);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.qr--card:hover {
+    box-shadow: 0px 25px 25px 0 rgba(255, 148, 166, 0.5);
+    transform: scale(1.25, 1.25) rotate(5deg);
+}
+
+.qr--code {
+    width: 288px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.qr--code::selection {
+    background-color: transparent;
+    color: transparent;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text::selection {
+    background-color: var(--pink);
+    color: var(--white);
+}
+
+.attribution {
+    font: normal normal 400 12px/140% "Outfit", system-ui;
+    letter-spacing: 0.2px;
+    font-optical-sizing: auto;
+    color: var(--slate-500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 25px;
+}
+
+.attribution a {
+    font: normal normal 700 15px/120% "Outfit", system-ui;
+    text-decoration: none;
+    color: var(--slate-900);
+    transition: color 0.2s ease-in-out;
+}
+
+.attribution a:hover {
+    color: var(--pink);
+}
+
+@media screen and (max-width: 460px) { /* 💀💀💀 */
+    .qr--card {
+        width: 240px;
+        height: 320px;
+    }
+    
+    .qr--code {
+        width: 140px;
+    }
+
+    .qr--card .text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) { /* Who in the world use a device with a width of below 350px💀💀💀 */
+    .qr--card {
+        width: 140px;
+        height: 220px;
+    }
+
+    .qr--code {
+        width: 88px;
+    }
+
+    .qr--card .text {
+        font-size: 10px;
+    }
+
+    .text {
+        font-size: 10px;
+    }
+
+    .attribution a
+    {
+        font-size: 10px;
+    }
+}
