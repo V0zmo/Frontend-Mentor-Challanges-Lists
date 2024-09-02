@@ -35,11 +35,7 @@ Users should be able to:
 
 ### Links
 
-<<<<<<< HEAD
 - Live Site URL: [Github](./index.html)
-=======
-- Live Site URL: [Github](https://v0zmo.github.io/Frontend-Mentor-Challanges-Lists/blog-preview-card-main/index.html)
->>>>>>> 1f0e073a8f7956c9c84768ffd76b84f2c09e93d8
 
 ## My process
 
