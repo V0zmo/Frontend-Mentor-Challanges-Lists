@@ -35,7 +35,11 @@ Users should be able to:
 
 ### Links
 
+<<<<<<< HEAD
 - Live Site URL: [Github](./index.html)
+=======
+- Live Site URL: [Github](https://v0zmo.github.io/Frontend-Mentor-Challanges-Lists/blog-preview-card-main/index.html)
+>>>>>>> 1f0e073a8f7956c9c84768ffd76b84f2c09e93d8
 
 ## My process
 
@@ -47,11 +51,11 @@ Users should be able to:
 
 ### What I learned
 
-I learn alot by doing this one, know when to use a proper unit measurements, tidying a code (not sure), and overall a great improvement! I also added a little bit a challenge for myself to push the limit of knowladge that I has.
+I learned a lot by doing this one. I now know when to use proper unit measurements, and tidy a code (I'm not sure), and overall, it was a great improvement! I also added a little bit of a challenge for myself to push the limit of my knowledge.
 
-And I also learnt that 'Custom' does not spelt 'Costum' lol, sorry English is not my first language.
+I also learned that 'Custom' is not spelled 'Costum'. I'm sorry, but English is not my first language.
 
-Altough It's a copy and paste code and a simple one. I still happy that I can use JavaScript lol, see below:
+Although it's a copy-and-paste code and a simple one. I am still happy that I can use JavaScript lol, see below:
 
 ```js
 const costumCursor = document.querySelector('#costum-cursor'); // Put #costum-cursor id to costumCursor variable.
@@ -81,8 +85,8 @@ I need to develop how to use CSS, especially Flex and a little bit of HTML struc
 
 ### Useful resources
 
-- [W3Schools](https://www.w3schools.com) - This helped me for HTML, CSS, JavaScript syntax.
-- [Stack Overflow 2](https://stackoverflow.com) - Good for looking a solution of problem.
+- [W3Schools](https://www.w3schools.com) - This helped me with HTML, CSS, and JavaScript syntax.
+- [Stack Overflow 2](https://stackoverflow.com) - Good for looking for a solution to the problem.
 - [GeeksforGeeks](https://www.geeksforgeeks.org) - Good resource and learning material too!
 - [Custom Cursor (Article)](https://webdesign.tutsplus.com/how-to-create-a-custom-mouse-cursor-with-css-or-javascript--cms-106724t) - Good article explaining how to implement custom cursor!
 - [Custom Cursor (YouTube)](https://www.youtube.com/watch?v=OKvvjXu7WE8) - This is also a great one!
@@ -94,4 +98,4 @@ I need to develop how to use CSS, especially Flex and a little bit of HTML struc
 
 ## Acknowledgments
 
-Thanks you [Useful resources](#useful-resources). And also thank you to [Jemima Abu](https://github.com/jemimaabu), [Tyler Potts](https://github.com/TylerPottsDev) for the custom cursor tutorial! And also thank you for [Connor McLaughlin](https://github.com/Gingerlox) for the [last feedback](https://www.frontendmentor.io/solutions/qr-code-component-solution-html-css-flexbox-ZdYPFRR0Na) project about [QR Code Component](https://github.com/V0zmo/Frontend-Mentor-Challanges-Lists/tree/main/qr-code-component-main). You all really a wonderful person!
+Thank you [Useful resources](#useful-resources). And also thank you to [Jemima Abu](https://github.com/jemimaabu) and [Tyler Potts](https://github.com/TylerPottsDev) for the custom cursor tutorial! And also thank you for [Connor McLaughlin](https://github.com/Gingerlox) for the [last feedback](https://www.frontendmentor.io/solutions/qr-code-component-solution-html-css-flexbox-ZdYPFRR0Na) project about [QR Code Component](https://github.com/V0zmo/Frontend-Mentor-Challanges-Lists/tree/main/qr-code-component-main). You all really a wonderful person!

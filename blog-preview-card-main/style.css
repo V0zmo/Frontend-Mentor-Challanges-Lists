@@ -27,7 +27,11 @@
     left: 0%;
     z-index: 999;
     pointer-events: none;
+<<<<<<< HEAD
     content: url(./assets/images/cursor.svg);
+=======
+    content: URL(./assets/images/cursor.svg);
+>>>>>>> 1f0e073a8f7956c9c84768ffd76b84f2c09e93d8
     display: none;
 }
 
