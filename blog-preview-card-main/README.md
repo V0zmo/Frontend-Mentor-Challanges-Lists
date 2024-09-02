@@ -24,7 +24,7 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-#### Self-Added Challange
+#### Self-Added Challenge
 - Added custom cursor
 - Make card animation
 - Interactive selection states
@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github](./index.html)
+- Live Site URL: [Github](https://v0zmo.github.io/Frontend-Mentor-Challanges-Lists/blog-preview-card-main/index.html)
 
 ## My process
 
@@ -49,26 +49,24 @@ Users should be able to:
 
 I learned a lot by doing this one. I now know when to use proper unit measurements, and tidy a code (I'm not sure), and overall, it was a great improvement! I also added a little bit of a challenge for myself to push the limit of my knowledge.
 
-I also learned that 'Custom' is not spelled 'Costum'. I'm sorry, but English is not my first language.
-
 Although it's a copy-and-paste code and a simple one. I am still happy that I can use JavaScript lol, see below:
 
 ```js
-const costumCursor = document.querySelector('#costum-cursor'); // Put #costum-cursor id to costumCursor variable.
+const customCursor = document.querySelector('#custom-cursor'); // Put #custom-cursor id to customCursor variable.
 
 document.addEventListener('mouseenter', () => {
-    costumCursor.style.display = 'block';
-}) // check if the cursor is entered the website page and display the costum cursor.
+    customCursor.style.display = 'block';
+}) // check if the cursor is entered the website page and display the custom cursor.
 
 document.addEventListener('mouseleave', () => {
-    costumCursor.style.display = 'none';
-}) // check if the cursor is leaving the website page and hide the costum cursor.
+    customCursor.style.display = 'none';
+}) // check if the cursor is leaving the website page and hide the custom cursor.
 
 const moveCursor = (e) => {
     const mouseY = e.clientY; // Get mouse Y position.
     const mouseX = e.clientX - 5; // Get mouse X position, and also offset it 5px (SVG messed the position).
 
-    costumCursor.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`; // Follow the mouse based on the mouse position.
+    customCursor.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`; // Follow the mouse based on the mouse position.
 
 }
 

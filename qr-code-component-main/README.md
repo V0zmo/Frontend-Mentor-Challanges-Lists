@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Github](./index.html)
+- Live Site URL: [Github](https://v0zmo.github.io/Frontend-Mentor-Challanges-Lists/qr-code-component-main/index.html)
 
 ## My process
 
@@ -39,7 +39,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 As this is my first time making something with HTML and CSS without YouTube tutorial I feel accomplished something. I think I got the grasp of the usage of <div> for contain element, semantic usage in HTML, element in CSS, and still confused on how the hell Flexbox work. Maybe next thing I should do is to understand Flexbox completely...
 
-And i learn a few intresting thing like this one who use &nbsp for add space for <p> element and <a> element. If there is better alternative please tell me so:
+And i learn a few interesting thing like this one who use &nbsp for add space for <p> element and <a> element. If there is better alternative please tell me so:
 
 ```html
 <div class="attribution">

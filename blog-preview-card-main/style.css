@@ -21,7 +21,7 @@
     cursor: none;
 }
 
-#costum-cursor {
+#custom-cursor {
     position: fixed;
     top: 0%;
     left: 0%;
@@ -163,7 +163,7 @@ a::selection {
 }
 
 img::selection,
-#costum-cursor::selection {
+#custom-cursor::selection {
     background-color: transparent;
     color: transparent;
 }
