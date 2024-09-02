@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github](https://your-solution-url.com)
+- Live Site URL: [Github](./index.html)
 
 ## My process
 
